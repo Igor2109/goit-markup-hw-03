@@ -1,0 +1,242 @@
+:root {
+
+    --main-txt-clr: #2E2F42;
+    --navy-blue-clr: #2E2F42;
+    --bcg-clr: #E5E5E5;
+    --white-clr: #FFFFFF;
+    --iris-clr: #4D5AE5;
+    --ocean-clr: #404BBF;
+    --green-clr: #31D0AA;
+    --slate-clr: #434455;
+    --light-slate-clr: #8E8F99;
+    --accent-clr: #E7E9FC;
+    --navy-blue-modal-clr: #F4F4FD;
+    --grey-clr: #F4F4FD;
+    --dairy-clr: #FCFCFC;
+
+/**
+  |============================
+  | Fonts
+  |============================
+*/
+
+    --main-font: 'Roboto', sans-serif;
+    --secondari-font: 'Raleway', sans-serif;
+
+
+
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+/**
+  |============================
+  | body
+  |============================
+*/
+body {
+  font-family:'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-clr);
+  background-color: var(--white-clr);
+
+}
+/**
+  |============================
+  | header
+  |============================
+*/
+.logo {
+  font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris-clr);
+}
+.logo-dark {
+  font-family: 'Raleway',sans-serif;
+color: var(--navy-blue-clr);
+}
+.logo-light {
+  font-family: 'Raleway',sans-serif;
+color: var(--navy-blue-modal-clr)
+}
+.header-item:hover,
+.header-item:focus {
+  font-weight: 500;
+  color: var(--ocean-clr);
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-clr);
+}
+.contacts-list {
+  font-style: normal;
+}
+.contacts-list :hover,
+.contacts-list :focus {
+  font-style: normal;
+  color: var(--ocean-clr);
+}
+.contacts {
+  font-family:'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+ color: var(--slate-clr);
+}
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.hero-bcg {
+    background-color: var(--navy-blue-clr);
+}
+.hero-header {
+
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--white-clr);
+}
+.btn-color {
+  font-family:'Roboto',sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white-clr);
+cursor: pointer;
+background-color: var(--iris-clr)
+
+}
+.btn-color:hover,
+.btn-color:focus {
+  font-family: inherit;
+  background-color:var(--ocean-clr)
+}
+/**
+  |============================
+  | Button filtr
+  |============================
+*/
+.btn:hover,
+.btn:focus
+ {
+ 
+background-color: var(--ocean-clr);
+color: var(--white-clr);
+cursor: pointer;
+}
+.btn {
+  font-family:"Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--iris-clr);
+  background-color: var(--navy-blue-modal-clr);
+}
+.skills-header {
+ 
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: var(--navy-blue-clr);
+}
+.skills-text {
+
+color: var(--slate-clr);
+}
+/**
+  |============================
+  | section 2
+  |============================
+*/
+.bcg-img {
+    background-color: var(--white-clr)
+}
+.header-work {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue-clr);
+}
+
+/**
+  |============================
+  | section 3
+  |============================
+*/
+.bcg-team {
+  line-height: 1.11;
+    background-color:var(--navy-blue-modal-clr)
+}
+.bcg-img {
+  background-color: var(--white-clr);
+}
+.header-team {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue-clr);
+}
+.team-name {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--navy-blue-clr);
+}
+.team-prof {
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--slate-clr);
+}
+.footer {
+  background-color: var(--navy-blue-clr);
+}
+.footer-txt {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue-modal-clr);
+}
