@@ -139,7 +139,7 @@ body {
   color: var(--navy-blue-clr);
 }
 .contacts-list {
-  
+
   display: flex;
   gap: 40;
 }
@@ -308,7 +308,8 @@ body {
   min-height: 56px; 
   margin: 0 auto;
   display: block;
-  border: none; 
+  border: none;
+  border-radius: 4px;  
 }
 .btn-color:hover,
 .btn-color:focus {
