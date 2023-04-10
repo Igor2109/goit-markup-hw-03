@@ -113,7 +113,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-clr);
-  margin-right: 75px;
+  margin-right: 76px;
 }
 .logo-dark {
   font-family: "Raleway", sans-serif;
@@ -139,7 +139,7 @@ body {
   color: var(--navy-blue-clr);
 }
 .contacts-list {
-  font-style: normal;
+  
   display: flex;
   gap: 40;
 }
