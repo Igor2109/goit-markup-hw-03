@@ -66,7 +66,7 @@ body {
   display: flex;
   align-items: center;
   height: 70px;
-  border-bottom: 1px solid #E7E9FC
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
   display: flex;
@@ -139,7 +139,6 @@ body {
   color: var(--navy-blue-clr);
 }
 .contacts-list {
-
   display: flex;
   gap: 40;
 }
@@ -163,7 +162,7 @@ body {
   |============================
 */
 .header {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu-nav {
@@ -178,7 +177,6 @@ body {
   margin-right: auto;
   outline: 2px solid red;
   outline-offset: -2px;
-  
 }
 
 /**
@@ -187,7 +185,7 @@ body {
   |============================
 */
 .hero-title {
-  max-width: 496px; 
+  max-width: 496px;
 }
 
 /**
@@ -196,7 +194,7 @@ body {
   |============================
 */
 .skills {
-  background-color:var(--white-clr);
+  background-color: var(--white-clr);
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -216,13 +214,11 @@ body {
   |============================
 */
 .bcg-img {
-  
-   padding-bottom: 120px; 
+  padding-bottom: 120px;
 }
 .img-list {
   display: flex;
   gap: 24px;
-  
 }
 .img-item {
   margin-left: auto;
@@ -253,7 +249,6 @@ body {
   margin-bottom: 8px;
 }
 .team-prof {
-  
 }
 .team-card {
   padding-bottom: 32px;
@@ -305,11 +300,11 @@ body {
   cursor: pointer;
   background-color: var(--iris-clr);
   min-width: 169px;
-  min-height: 56px; 
+  min-height: 56px;
   margin: 0 auto;
   display: block;
   border: none;
-  border-radius: 4px;  
+  border-radius: 4px;
 }
 .btn-color:hover,
 .btn-color:focus {
@@ -339,7 +334,7 @@ body {
   background-color: var(--navy-blue-modal-clr);
   border-radius: 4px;
   padding: 12px 24px;
- border: none;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   color: var(--iris-clr);
@@ -348,12 +343,12 @@ body {
 
 .btn-list {
   display: flex;
- align-items: center;
+  align-items: center;
   gap: 24px;
   padding-top: 96px;
   padding-bottom: 66px;
   justify-content: center;
-  margin-bottom: 72px
+  margin-bottom: 72px;
 }
 /**
   |============================
@@ -374,12 +369,12 @@ body {
   gap: 24px;
 }
 .cards {
-  width: calc(100%-(24px * 2)/3);
+  width: calc(100%- (24px * 2) / 3);
 }
 .contant {
   padding: 32px 16px;
   border: 1px solid var(--accent-clr);
-  border-top: none; 
+  border-top: none;
 }
 .skills-header {
   font-weight: 500;
@@ -458,7 +453,7 @@ body {
 }
 .footer {
   background-color: var(--navy-blue-clr);
-  padding: 100px 0
+  padding: 100px 0;
 }
 .footer-txt {
   font-size: 16px;
