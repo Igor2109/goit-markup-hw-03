@@ -87,6 +87,8 @@ body {
 }
 .header-nav {
   margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 .address-mail {
   margin-right: 40px;
@@ -163,10 +165,7 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc
 }
-.header-nav{
-  display: flex;
-  align-items: center;
-}
+
 .menu-nav {
   display: flex;
   gap: 40px;
@@ -309,6 +308,7 @@ body {
   min-height: 56px; 
   margin: 0 auto;
   display: block;
+  border: none; 
 }
 .btn-color:hover,
 .btn-color:focus {
