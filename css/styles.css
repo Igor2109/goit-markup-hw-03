@@ -346,7 +346,7 @@ body {
   align-items: center;
   gap: 24px;
   padding-top: 96px;
-  padding-bottom: 66px;
+  /* padding-bottom: 66px; */
   justify-content: center;
   margin-bottom: 72px;
 }
@@ -356,7 +356,7 @@ body {
   |============================
 */
 .section {
-  padding: 96px 0 120px;
+  /* padding: 96px 0 120px; */
 }
 .portfolio .container-list {
   flex-wrap: wrap;
@@ -415,7 +415,7 @@ body {
 .bcg-team {
   line-height: 1.11;
   background-color: var(--navy-blue-modal-clr);
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 .bcg-img {
   background-color: var(--white-clr);
@@ -431,7 +431,7 @@ body {
   margin-bottom: 72px;
 }
 .team-personal {
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
