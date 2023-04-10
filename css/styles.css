@@ -140,7 +140,7 @@ body {
 }
 .contacts-list {
   display: flex;
-  gap: 40;
+  gap: 40px;
 }
 .contacts-list :hover,
 .contacts-list :focus {
