@@ -80,7 +80,7 @@ body {
   |============================
 */
 .header-logo {
-  margin-right: 75px;
+  margin-right: 76px;
   display: block;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -129,8 +129,7 @@ body {
 
 .header-item {
   display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -140,6 +139,7 @@ body {
 .contacts-list {
   font-style: normal;
   display: flex;
+  gap: 40;
 }
 .contacts-list :hover,
 .contacts-list :focus {
@@ -160,6 +160,17 @@ body {
   | Header box
   |============================
 */
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+}
+.menu-nav {
+  display: flex;
+  gap: 40px;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -176,6 +187,9 @@ body {
   | hero box
   |============================
 */
+.hero-title {
+  max-width: 496px; 
+}
 
 /**
   |============================
@@ -208,6 +222,7 @@ body {
 }
 .img-list {
   display: flex;
+  gap: 24px;
   
 }
 .img-item {
@@ -310,6 +325,7 @@ body {
   background-color: var(--ocean-clr);
   color: var(--white-clr);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .btn {
   font-family: "Roboto", sans-serif;
@@ -326,7 +342,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: var(--iris-clr);
+  border: 1px solid var(--accent-clr);
 }
+
 .btn-list {
   display: flex;
  align-items: center;
@@ -334,12 +352,16 @@ body {
   padding-top: 96px;
   padding-bottom: 66px;
   justify-content: center;
+  margin-bottom: 72px
 }
 /**
   |============================
   | Portfolio
   |============================
 */
+.section {
+  padding: 96px 0 120px;
+}
 .portfolio .container-list {
   flex-wrap: wrap;
   row-gap: 48px;
@@ -349,11 +371,14 @@ body {
   display: flex;
   width: 1128px;
   gap: 24px;
-  
-  
 }
 .cards {
   width: calc(100%-(24px * 2)/3);
+}
+.contant {
+  padding: 32px 16px;
+  border: 1px solid var(--accent-clr);
+  border-top: none; 
 }
 .skills-header {
   font-weight: 500;
@@ -362,6 +387,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue-clr);
   margin-top: 32px;
+  margin-bottom: 8px;
 }
 .skills-text {
   color: var(--slate-clr);
@@ -393,6 +419,7 @@ body {
 .bcg-team {
   line-height: 1.11;
   background-color: var(--navy-blue-modal-clr);
+  padding: 120px 0;
 }
 .bcg-img {
   background-color: var(--white-clr);
@@ -405,6 +432,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-clr);
+  margin-bottom: 72px;
+}
+.team-personal {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
@@ -413,6 +445,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue-clr);
+  margin-bottom: 8px;
 }
 .team-prof {
   font-weight: 400;
@@ -424,10 +457,15 @@ body {
 }
 .footer {
   background-color: var(--navy-blue-clr);
+  padding: 100px 0
 }
 .footer-txt {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue-modal-clr);
+}
+.logo-ftr {
+  display: inline-block;
+  margin-bottom: 16px;
 }
