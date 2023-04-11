@@ -46,6 +46,19 @@ img {
   min-width: 100%;
   height: auto;
 }
+/* Hidden title */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /**
   |============================
   | body
@@ -82,26 +95,9 @@ body {
 .header-logo {
   margin-right: 76px;
   display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.header-nav {
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-}
-.address-mail {
-  margin-right: 40px;
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.contacts-tel {
-  display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -113,7 +109,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-clr);
-  margin-right: 76px;
+  
 }
 .logo-dark {
   font-family: "Raleway", sans-serif;
@@ -123,6 +119,24 @@ body {
   font-family: "Raleway", sans-serif;
   color: var(--navy-blue-modal-clr);
 }
+.header-nav {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.address-mail {
+  /* margin-right: 40px; */
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.contacts-tel {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
 .header-item:hover,
 .header-item:focus {
   font-weight: 500;
@@ -205,17 +219,27 @@ body {
 .skills-header {
   margin-bottom: 8px;
 }
+
+.skills-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-clr);
+  margin-bottom: 8px;
+}
 .skills-text {
-  width: 264px;
+  color: var(--slate-clr);
+}
+.feature-one {
+  width: calc((100%-72px)/4);
 }
 /**
   |============================
   | What are we doing box
   |============================
 */
-.bcg-img {
-  padding-bottom: 120px;
-}
+
 .img-list {
   display: flex;
   gap: 24px;
@@ -235,15 +259,9 @@ body {
 */
 .img-team {
   display: flex;
-  padding-bottom: 120px;
-}
-.header-team {
-  padding-top: 120px;
-  padding-bottom: 72px;
-}
-.img-team {
   gap: 24px;
 }
+
 .team-name {
   margin-top: 32px;
   margin-bottom: 8px;
@@ -251,21 +269,9 @@ body {
 .team-prof {
 }
 .team-card {
-  padding-bottom: 32px;
+  
 }
-/**
-  |============================
-  | Footer box
-  |============================
-*/
-.footer-container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 864px;
-}
-.footer-txt {
-  padding-top: 16px;
-}
+
 
 /**
   |============================
@@ -345,7 +351,6 @@ body {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-top: 96px;
   /* padding-bottom: 66px; */
   justify-content: center;
   margin-bottom: 72px;
@@ -356,7 +361,7 @@ body {
   |============================
 */
 .section {
-  /* padding: 96px 0 120px; */
+  padding: 96px 0 120px;
 }
 .portfolio .container-list {
   flex-wrap: wrap;
@@ -376,27 +381,13 @@ body {
   border: 1px solid var(--accent-clr);
   border-top: none;
 }
-.skills-header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-clr);
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.skills-text {
-  color: var(--slate-clr);
-  padding-bottom: 32px;
-}
+
 /**
   |============================
   | section 2
   |============================
 */
-.bcg-img {
-  background-color: var(--white-clr);
-}
+
 .header-work {
   font-weight: 700;
   font-size: 36px;
@@ -409,13 +400,14 @@ body {
 
 /**
   |============================
-  | section 3
+  | What are we doing?
   |============================
 */
 .bcg-team {
   line-height: 1.11;
   background-color: var(--navy-blue-modal-clr);
-  /* padding: 120px 0; */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .bcg-img {
   background-color: var(--white-clr);
@@ -431,7 +423,8 @@ body {
   margin-bottom: 72px;
 }
 .team-personal {
-  /* padding: 32px 16px; */
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
@@ -450,6 +443,17 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate-clr);
+}
+/**
+  |============================
+  | Footer box
+  |============================
+*/
+.footer-container {
+ 
+}
+.footer-txt {
+  width: 264px;
 }
 .footer {
   background-color: var(--navy-blue-clr);
