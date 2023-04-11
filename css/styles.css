@@ -271,6 +271,9 @@ body {
 .team-card {
   
 }
+.section-bcg-img {
+  padding-bottom: 120px;
+}
 
 
 /**
@@ -411,7 +414,7 @@ body {
 }
 .bcg-img {
   background-color: var(--white-clr);
-  padding-bottom: 120px;
+  
 }
 .header-team {
   font-weight: 700;
