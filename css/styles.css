@@ -411,6 +411,7 @@ body {
 }
 .bcg-img {
   background-color: var(--white-clr);
+  padding-bottom: 120px;
 }
 .header-team {
   font-weight: 700;
@@ -423,8 +424,7 @@ body {
   margin-bottom: 72px;
 }
 .team-personal {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-name {
