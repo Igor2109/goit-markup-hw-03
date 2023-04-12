@@ -260,15 +260,37 @@ body {
 .img-team {
   display: flex;
   gap: 24px;
+} 
+.team-personal {
+  padding: 32px 16px;
+  
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-clr);
+  margin-bottom: 8px;
+}
+.team-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate-clr);
 }
 
 .team-name {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-prof {
 }
 .team-card {
+  width: calc((100%-72px)/4);
+  border-radius: 0px 0px 4px 4px;
   
 }
 .section-bcg-img {
@@ -426,27 +448,7 @@ body {
   color: var(--navy-blue-clr);
   margin-bottom: 72px;
 }
-.team-personal {
-  padding: 32px 16px;
-  border-radius: 0px 0px 4px 4px;
-}
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue-clr);
-  margin-bottom: 8px;
-}
-.team-prof {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--slate-clr);
-}
+
 /**
   |============================
   | Footer box
