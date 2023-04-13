@@ -12,6 +12,7 @@
   --navy-blue-modal-clr: #f4f4fd;
   --grey-clr: #f4f4fd;
   --dairy-clr: #fcfcfc;
+  --hero-bcg: rgba(46, 47, 66, 0.7);
 
   /**
   |============================
@@ -189,7 +190,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   outline-offset: -2px;
 }
 /**
@@ -200,9 +201,15 @@ body {
 .hero-container {
 }
 .hero-bcg {
-  background: rgba(46, 47, 66, 0.7);
-  background-image: url(group-people-working-website-template.jpg);
-  /* background-color: var(--navy-blue-clr); */
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/hero-bcg/people-office\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+  
   padding: 188px 0;
   
 }
@@ -280,6 +287,14 @@ body {
 .feature-one {
   width: calc((100%-72px)/4);
 }
+.rectangle {
+width: 264px;
+height: 112px;
+left: 0px;
+top: 0px;
+background:var(--grey-clr);
+border-radius: 4px;
+}
 /**
   |============================
   | What are we doing box
@@ -333,6 +348,7 @@ body {
   margin-bottom: 8px;
 }
 .team-prof {
+  margin-bottom: 8px;
 }
 .team-card {
   width: calc((100%-72px)/4);
@@ -341,6 +357,28 @@ body {
 }
 .section-bcg-img {
   padding-bottom: 120px;
+}
+/* Socials */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-item {
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color:var(--iris-clr);
+  border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color:var(--ocean-clr);
 }
 
 
